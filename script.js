@@ -2,13 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getFirestore, collection, addDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAjjZ4conWjZQTRpNywR7REAXbr2N9KGXQ",
-    authDomain: "calculadora-obra-8ba05.firebaseapp.com",
-    projectId: "calculadora-obra-8ba05",
-    storageBucket: "calculadora-obra-8ba05.firebasestorage.app",
-    messagingSenderId: "757167180935",
-    appId: "1:757167180935:web:ef0b1ec069267019f57c22",
-    measurementId: "G-GK035YE8HR"
+    apiKey: "xxxxxxxxxxxxxxxxxxxxxxxx",
+    authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxx",
+    projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    storageBucket: "xxxxxxxxxxxxxxxxxxxxx",
+    messagingSenderId: "xxxx",
+    appId: "xxxxxxxxx",
+    measurementId: "xxxx-x"
 };
     
 const app = initializeApp(firebaseConfig);
