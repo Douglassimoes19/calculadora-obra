@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de metro quadrado</title>
+    
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <div id="materiais">
+        <h1> custo de uma obra por metro quadrado</h1>
+        <form id="form">
+            <label for="area">Digite a area total da obra:</label>
+            <input type="text" name="area" id="area" required placeholder="Ex.:40">
+            <br>
+            <label for="custo">Digite o custo total dos materiais:</label>
+            <input type="text" name="custo" id="custo" required placeholder="Ex.:5000,00">
+            <br>
+            <label for="mao_obra">Digite o valor total da mão de obra</label>
+            <input type="text" name="mao_obra" id="mao_obra" required placeholder="5000,00">
+            <br>
+            <button type="submit" id="btn">Calcular</button>
+        </form>
+    </div>
+    <div id="Calculo">
+        <ul id="listaCalculos"></ul>
+    </div>
+</body>
+</html>
