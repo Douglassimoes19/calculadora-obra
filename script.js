@@ -2,13 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getFirestore, collection, addDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "xxxxxxxxxxxxxxxxxxxxxxxx",
-    authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxx",
-    projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    storageBucket: "xxxxxxxxxxxxxxxxxxxxx",
-    messagingSenderId: "xxxx",
-    appId: "xxxxxxxxx",
-    measurementId: "xxxx-x"
+    apiKey: "x",
+    authDomain: "x",
+    projectId: "x",
+    storageBucket: "x",
+    messagingSenderId: "x",
+    appId: "x",
+    measurementId: "x"
 };
     
 const app = initializeApp(firebaseConfig);
@@ -60,7 +60,7 @@ function showConta() {
                 <li>{
                     <span> Área: <b>${custos.area_total}m²</b> </span> ;
                     <span> Materiais: <b>R$${material.toFixed(2)}</b></span>; 
-                    <span> Mão de Obra: <b>R$${mao_obra.toFixed(2)}</b></span>; 
+                    <span> Mão de Obra: <b>R$${mao_obra.toFixed(2)}</b></span> 
                     <span> <strong>O Custo total da obra por m²: R$${total.toFixed(2)}</strong></span>}
                 </li>
             `;
